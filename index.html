@@ -41,14 +41,39 @@
       };
     </script>
   </head>
-  <body>
+  <body class="bg-cream flex justify-center items-center flex-col min-h-screen">
+    <main
+      class="flex flex-col md:flex-row mx-auto max-w-96 max-h-none"
+    >
+      <figure class="w-full md:w-2/4">
+        <img
+          src="./images/image-product-mobile.jpg"
+          alt="product image"
+          class="md:hidden w-full"
+        />
+        <img
+          src="./images/image-product-desktop.jpg"
+          alt="product image"
+          class="hidden md:block w-full"
+        />
+      </figure>
+      <div class="w-full md:w-2/4 p-4 bg-white">
+        <h2 class="tracking-widest text-darkCyan font-Montserrat">PERFUME</h2>
+        <h1 class="font-Fraunces text-2xl my-4">Gabrielle Essence Eau De Parfum</h1>
+      </div>
+    </main>
+
     <!-- footer -->
     <footer class="flex justify-center">
       <p>
         Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="font-bold"
           >Frontend Mentor</a
-        >. Coded by <a href="https://github.com/hemel17">Hemel</a>.
+        >. Coded by
+        <a href="https://github.com/hemel17" class="font-bold">Hemel</a>.
       </p>
     </footer>
   </body>
