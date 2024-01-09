@@ -43,7 +43,7 @@
   </head>
   <body class="bg-cream flex justify-center items-center flex-col min-h-screen">
     <main
-      class="flex flex-col md:flex-row mx-auto max-w-96 max-h-none"
+      class="flex flex-col md:flex-row mx-auto max-w-sm md:max-w-lg max-h-none rounded-lg"
     >
       <figure class="w-full md:w-2/4">
         <img
@@ -57,9 +57,30 @@
           class="hidden md:block w-full"
         />
       </figure>
-      <div class="w-full md:w-2/4 p-4 bg-white">
+      <div class="w-full md:w-2/4 px-4 py-7 bg-white">
         <h2 class="tracking-widest text-darkCyan font-Montserrat">PERFUME</h2>
-        <h1 class="font-Fraunces text-2xl my-4">Gabrielle Essence Eau De Parfum</h1>
+        <h1 class="font-Fraunces text-2xl my-6 text-veryDarkBlue">
+          Gabrielle Essence Eau De Parfum
+        </h1>
+        <p class="font-Montserrat text-sm text-darkCyan">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the house of CHANEL.
+        </p>
+        <p class="flex items-center gap-5 my-6">
+          <span class="inline-block font-Fraunces text-2xl text-green-600"
+            >$149.99</span
+          >
+          <span
+            class="inline-block font-Montserrat text-sm text-darkCyan line-through"
+            >$169.99</span
+          >
+        </p>
+        <button
+          class="flex items-center justify-center bg-green-600 py-1 px-2 w-full text-white font-Montserrat font-bold rounded-lg"
+        >
+          <img src="./images/icon-cart.svg" alt="cart image" class="mr-2" />
+          Add to Cart
+        </button>
       </div>
     </main>
 
